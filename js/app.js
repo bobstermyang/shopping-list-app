@@ -9,6 +9,6 @@ $(document).ready(function () {
         $(".item").css('opacity' ,'.3').css('font-size' , '.8em').css('font-style', 'italic').css('text-decoration' , 'line-through');
     });
     $(document).on("click",".remove_field", function(e){
-        e.preventDefault(); $(this).parent('li').remove(); x--;
+        e.preventDefault(); $(this).parent('li').remove();
     });
 });
